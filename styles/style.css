@@ -164,7 +164,7 @@ h2 {
     border: 2px white;
     border-style: solid;
     align-self: center;
-    width: fit-content;
+    margin-right: 100px;
 }
 
 .footer {
