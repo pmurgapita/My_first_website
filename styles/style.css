@@ -10,6 +10,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 16px 250px;
     background-color:#1F2937;
     font-size: 24px;
@@ -17,8 +18,9 @@ body {
 }
 
 .header-logo {
-    flex:auto;
+    flex:1;
     font-weight:900;
+    flex-shrink:0;
 }
 
 ul {
@@ -27,6 +29,7 @@ ul {
     font-size: 18px; 
     list-style: none;
     font-weight: lighter;
+    flex-shrink:0;
 }
 
 a {
@@ -49,10 +52,12 @@ a {
     justify-content: center;
     width: fit-content;
     text-align:left;
+    flex-shrink: 0;
 }
 
 .title-one {
     font-size: 48px; 
+    width: 400px;
     color: #F9FAF8; 
     font-weight: 900;
     text-align: left;
@@ -78,6 +83,7 @@ button {
     height: 250px;
     width: 400px;
     border-radius: 25px;
+    flex-shrink: 0;
 }
 
 .text {
